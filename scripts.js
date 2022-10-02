@@ -1,7 +1,6 @@
 "use strict"
 
 let albumList = document.getElementById("albums");
-albumList.style.cssText = "color: blue; list-style: none; padding: 0";
 
 fetch("https://jsonplaceholder.typicode.com/albums")
     .then((response) => response.json())
